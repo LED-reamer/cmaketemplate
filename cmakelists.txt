@@ -23,9 +23,9 @@ file(GLOB_RECURSE SRC_FILES src/*.cpp)
 #.exe
 add_executable(myProjectName ${SRC_FILES})
 #.lib
-add_library(myProjectName STATIC ${SRC_FILES})
+#add_library(myProjectName STATIC ${SRC_FILES})
 #.dll
-add_library(myProjectName SHARED ${SRC_FILES})
+#add_library(myProjectName SHARED ${SRC_FILES})
 
 
 #includes
